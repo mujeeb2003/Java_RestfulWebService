@@ -13,7 +13,8 @@ public class Customer {
     private int Id;
     private String Name;
     private String Email;
-
+    private String Password;
+    
     public int getId() {
         return Id;
     }
@@ -36,6 +37,14 @@ public class Customer {
 
     public void setEmail(String Email) {
         this.Email = Email;
+    }
+
+    public String getPassword() {
+        return Password;
+    }
+
+    public void setPassword(String Password) {
+        this.Password = Password;
     }
     
 }
